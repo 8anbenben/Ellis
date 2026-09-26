@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="birthday-card">
+        <p class="date-line">Today's date is: <span id="current-date"></span></p>
+        <h2>Is it your birthday?</h2>
+
+        <div class="button-row">
+            <button id="yes-button" onclick="onYesButtonClick()">Yes</button>
+            <button id="no-button" onclick="onNoButtonClick()">No</button>
+        </div>
+
+        <h2 id="reaction-text" class="reaction-text">Loading...</h2>
+    </main>
+</body>
+</html>
